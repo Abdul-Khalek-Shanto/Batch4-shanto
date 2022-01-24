@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    color: red;
+}
+.div-one{
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+    animation-name: bitm4;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin: 0 auto;
+    display: block;
+    animation-delay: 2s;
+    margin-top: 50px;
+
+}
+
+
+@keyframes bitm4{
+    0%{
+        background-image: url("../images/1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 200px;
+        height: 200px;
+    }
+
+    50%{
+        background-image: url("../images/2.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 350px;
+        height: 350px;
+
+
+    }
+
+    100%{
+        background-image: url("../images/3.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+
+
+    }
+}
+
+/*@keyframes bitm3{*/
+/*    0%{*/
+/*        background-color: yellow;*/
+/*        transform: rotate(0deg) scale(1.5);*/
+/*    }*/
+
+/*    50%{*/
+/*        background-color: green;*/
+
+/*        transform: rotate(360deg) scale(1.5);*/
+
+/*    }*/
+
+/*    100%{*/
+/*        background-color: blue;*/
+/*        transform: rotate(0deg) scale(1.5);*/
+
+/*    }*/
+/*}*/
+/*@keyframes bitm2{*/
+/*    0%{*/
+/*        background-color: yellow;*/
+/*    }*/
+/*    25%{*/
+/*        background-color: aqua;*/
+/*        height: 200px;*/
+/*        width: 400px;*/
+/*        transform: scale(1);*/
+/*    }*/
+/*    50%{*/
+/*        background-color: green;*/
+/*        height: 400px;*/
+/*        width: 400px;*/
+/*    }*/
+/*    75%{*/
+/*        background-color: orangered;*/
+/*        height:600px;*/
+/*        width: 400px;*/
+/*    }*/
+/*    100%{*/
+/*        background-color: blue;*/
+/*        height: 200px;*/
+/*        width: 200px;*/
+/*    }*/
+/*}*/
+
+/*@keyframes bitm {*/
+/*    from{*/
+/*        background-color: red;*/
+/*    }*/
+/*    to{*/
+/*        background-color: green;*/
+/*    }*/
+/*}*/
